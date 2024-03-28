@@ -6,6 +6,10 @@ a {
     text-decoration-line: none;
 }
 
+address {
+    font-style: normal;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -34,12 +38,11 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.header-menu-link:hover .header-menu-link:focus {
+.header-menu-link:hover, .header-menu-link:focus {
     color: #404bbf;
 }
 
 .address-menu-link {
-    font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -63,6 +66,7 @@ color: #434455;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 color: #fff;
 }
 
@@ -98,15 +102,20 @@ letter-spacing: 0.02em;
 }
 
 .workers {
+    background-color: #F4F4FD; 
+}
+
+.workers-titel {
+    text-transform: capitalize;
     font-weight: 700;
  font-size: 36px;
  line-height: 1.11;
  letter-spacing: 0.02em;
+ text-align: center;
  color: #2e2f42;
- background-color: #F4F4FD;
 }
 
-.works-list {
+.workers-list {
  background: #fff;
 }
 
@@ -129,10 +138,12 @@ letter-spacing: 0.02em;
 
 
 .posibility {
+    text-transform: capitalize;
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
 color: #2e2f42;
 }
 
@@ -160,7 +171,7 @@ letter-spacing: 0.02em;
 }
 
 .footer-logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
